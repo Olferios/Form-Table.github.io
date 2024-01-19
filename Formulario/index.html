@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario Registro-Mi web</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario Web</h1>
+
+    </header>
+    <nav>
+        <form name="formulario" method="get" action="">
+        
+            <label for="nombre">Nombres</label>
+            <input maxlength="50" required name="nombre" type="text" placeholder="Introduce Nombre" id="nombre">
+            
+            <label for="apellido">Apellidos:</label>
+            <input maxlength="50" required name="apellido" type="text" placeholder="Introduce Apellido" id="apellido">
+            
+            <label for="sexo">Sexo:</label>
+            <select id="sexo">
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+            </select>
+            
+            <label for="correo">Correo electrónico:</label>
+            <input name="correo" type="email" placeholder="Ingrese correo" id="correo">
+            
+            
+        </form> 
+
+    </nav>
+    
+       
+</body>
+<footer>
+    <label>
+        <p>
+            <label>
+                <input type="checkbox" name="suscripcion" id="suscripcionCheckbox">
+                Deseo recibir información sobre novedades y ofertas
+            </label>
+        </p>
+        
+        <p>
+            <label>
+                <input type="checkbox" name="terminos" id="terminos">
+                Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+            </label>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+</footer>
+</html>
